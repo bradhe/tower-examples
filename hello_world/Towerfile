@@ -1,0 +1,5 @@
+[app]
+name = "examples-hello-world"
+source = [
+	"./main.py",
+]	

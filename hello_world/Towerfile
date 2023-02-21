@@ -1,5 +1,4 @@
-[app]
-name = "examples-hello-world"
+name = "amazing-vally-407"
 source = [
-	"./main.py",
-]	
+  "./app.py",
+]

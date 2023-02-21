@@ -1,4 +1,5 @@
 name = "amazing-vally-407"
+script = "./app.py"
 source = [
   "./app.py",
 ]

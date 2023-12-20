@@ -1,0 +1,7 @@
+[app]
+name = "huggingface-pretrained-model"
+script = "./app.py"
+source = [
+		"./*.py",
+		"./requirements.txt"
+]

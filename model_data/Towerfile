@@ -1,0 +1,12 @@
+[app]
+name = "simple-model-example"
+script = "./app.py"
+source = [
+  "./app.py",
+  "./requirements.txt"
+]
+
+[model]
+files = [
+  "./model/*",
+]

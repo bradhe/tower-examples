@@ -8,6 +8,6 @@ def hello_world_setup():
 @tower.inference
 def hello_world_inference():
     print("Calling inference")
-    return tower.StringResult('This is yet another attemp!')
+    return tower.StringResult('This is a new version yet again. Here we go again.')
 
 tower.start()

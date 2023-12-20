@@ -1,5 +1,5 @@
 [app]
-name = "amazing-vally-407"
+name = "my-app-123"
 script = "./app.py"
 source = [
   "./app.py",

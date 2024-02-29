@@ -19,7 +19,6 @@ def model_setup(dir):
 @tower.inference
 def model_inference():
     global TOTAL
-    r = requests.get("https://www.google.com")
-    return tower.StringResult("The total is: {total} with status {status}".format(total=TOTAL, status=r.status_code))
+    return tower.StringResult("The total is: {total}".format(total=TOTAL))
 
 tower.start()

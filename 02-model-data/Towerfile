@@ -1,9 +1,9 @@
 [app]
-name = "simple-model-example"
+name = "model-data"
 script = "./app.py"
 source = [
   "./app.py",
-  "./requirements.txt"
+	"./requirements.txt",
 ]
 
 [model]

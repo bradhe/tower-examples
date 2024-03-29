@@ -18,7 +18,7 @@ def tower_setup(dir):
 def tower_inference():
     print("application: Performing inference")
     global CLASSIFIER
-    result = CLASSIFIER("Hello, world!")
+    result = CLASSIFIER("Wow I love AI.")
     return tower.StringResult("The result is \"{dir}\" with score of \"{score}\"".format(dir=result[0]["label"], score=result[0]["score"]))
 
 tower.start()

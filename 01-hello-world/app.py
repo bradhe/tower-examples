@@ -8,6 +8,6 @@ def hello_world_setup(dir):
 @tower.inference
 def hello_world_inference():
     print("Calling inference")
-    return tower.StringResult('Hello, Serhii!')
+    return tower.StringResult('Hello, world!')
 
 tower.start()

@@ -15,10 +15,12 @@ def tower_setup(dir):
         raise ValueError("CLASSIFIER is None")
 
 @tower.inference
-def tower_inference():
-    print("application: Performing inference")
+def tower_inference(params):
+    sentence = params["sentence"]
+    
     global CLASSIFIER
-    result = CLASSIFIER("Wow I love AI.")
+    result = CLASSIFIER(sentence)
+
     return tower.StringResult("The result is \"{dir}\" with score of \"{score}\"".format(dir=result[0]["label"], score=result[0]["score"]))
 
 tower.start()

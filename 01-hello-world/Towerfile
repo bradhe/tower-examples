@@ -1,6 +1,6 @@
 [app]
 name = "hello-world"
-script = "./app.py"
+script = "./task.py"
 source = [
-  "./app.py",
+  "./task.py",
 ]

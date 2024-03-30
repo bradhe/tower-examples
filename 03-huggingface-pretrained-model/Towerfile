@@ -1,6 +1,6 @@
 [app]
 name = "huggingface-pretrained-model"
-script = "./app.py"
+script = "./task.py"
 source = [
 		"./*.py",
 		"./requirements.txt"

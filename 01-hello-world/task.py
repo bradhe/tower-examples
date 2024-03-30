@@ -6,8 +6,7 @@ def hello_world_setup(dir):
     pass
 
 @tower.inference
-def hello_world_inference(params):
-    person = params["person"]
-    return tower.StringResult('Hello, {person}!'.format(person=person))
+def hello_world_inference():
+    return tower.StringResult('Hello, world!')
 
 tower.start()

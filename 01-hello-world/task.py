@@ -1,12 +1,9 @@
-import tower
-import json
+import time
 
-@tower.setup
-def hello_world_setup(dir):
-    pass
+# This task does nothing at all, really.
+count = 0
 
-@tower.inference
-def hello_world_inference():
-    return tower.StringResult('Hello, world!')
-
-tower.start()
+while count < 5:
+    count += 1
+    print("Hello, world!")
+    time.sleep(1)

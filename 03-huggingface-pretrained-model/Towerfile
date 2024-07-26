@@ -1,7 +1,0 @@
-[app]
-name = "huggingface-pretrained-model"
-script = "./task.py"
-source = [
-		"./*.py",
-		"./requirements.txt"
-]

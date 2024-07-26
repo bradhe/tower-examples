@@ -1,0 +1,7 @@
+[app]
+name = "dlthub-pipeline"
+script = "./pipeline.py"
+source = [
+	"pipeline.py",
+	"requirements.txt"
+]

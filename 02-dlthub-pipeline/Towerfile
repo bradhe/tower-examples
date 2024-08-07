@@ -2,6 +2,8 @@
 name = "dlthub-pipeline"
 script = "./pipeline.py"
 source = [
+	"./data/fedres/*.csv",
 	"./**/*.py",
+	"./*.py",
 	"requirements.txt"
 ]

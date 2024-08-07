@@ -8,5 +8,6 @@ schedule = 'every 5 minutes'
 
 source = [
  './**/*.py',
+ './*.py',
  'requirements.txt'
 ]

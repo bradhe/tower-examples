@@ -1,3 +1,5 @@
 .venv
 inference.py
 test.py
+.DS_Store
+.idea

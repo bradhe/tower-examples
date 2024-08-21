@@ -16,7 +16,9 @@ cp .dlt/secrets.toml.template .dlt/secrets.toml
 In the .dlt/secrets.toml file, replace the placeholders in the credentials config
 destination.snowflake.credentials="snowflake://..."
 
-
+## Install Snowflake DLT dependencies
+pip3 install "dlt[snowflake]"
+pip3 install -r requirements.txt
 
 ## Run the DLT pipeline
 python3 pipeline.py

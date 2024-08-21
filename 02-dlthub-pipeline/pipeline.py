@@ -17,8 +17,6 @@ TARGET_SCHEMA_NAME = dlt.config["loader_config.target_schema_name"]
 TARGET_TABLE_NAME = dlt.config["loader_config.target_table_name"]
 WRITE_DISPOSITION = dlt.config["loader_config.write_disposition"]
 
-
-
 def load_and_merge_csv() -> None:
     """Demonstrates how to scan folder with csv files, load them in chunk and merge on date column with the previous load"""
     pipeline = dlt.pipeline(
